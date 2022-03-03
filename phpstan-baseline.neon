@@ -96,11 +96,6 @@ parameters:
 			path: src/PhpSpreadsheet/Calculation/Calculation.php
 
 		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\:\\:getUnusedBranchStoreKey\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Calculation.php
-
-		-
 			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\:\\:localeFunc\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: src/PhpSpreadsheet/Calculation/Calculation.php
@@ -162,11 +157,6 @@ parameters:
 
 		-
 			message: "#^Parameter \\#3 \\$formula of static method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\:\\:translateSeparator\\(\\) expects string, string\\|null given\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Calculation.php
-
-		-
-			message: "#^Property PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\:\\:\\$branchPruningEnabled has no type specified\\.$#"
 			count: 1
 			path: src/PhpSpreadsheet/Calculation/Calculation.php
 
@@ -243,11 +233,6 @@ parameters:
 		-
 			message: "#^Static property PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\:\\:\\$instance \\(PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Calculation\\) in isset\\(\\) is not nullable\\.$#"
 			count: 1
-			path: src/PhpSpreadsheet/Calculation/Calculation.php
-
-		-
-			message: "#^Strict comparison using \\=\\=\\= between mixed and null will always evaluate to false\\.$#"
-			count: 2
 			path: src/PhpSpreadsheet/Calculation/Calculation.php
 
 		-
@@ -1179,41 +1164,6 @@ parameters:
 			message: "#^Variable \\$value on left side of \\?\\? always exists and is not nullable\\.$#"
 			count: 1
 			path: src/PhpSpreadsheet/Calculation/TextData/Text.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$onlyIf with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$onlyIfNot with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$reference with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$storeKey with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$type with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
-
-		-
-			message: "#^Method PhpOffice\\\\PhpSpreadsheet\\\\Calculation\\\\Token\\\\Stack\\:\\:getStackItem\\(\\) has parameter \\$value with no type specified\\.$#"
-			count: 1
-			path: src/PhpSpreadsheet/Calculation/Token/Stack.php
 
 		-
 			message: "#^Elseif branch is unreachable because previous condition is always true\\.$#"
